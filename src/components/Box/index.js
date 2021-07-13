@@ -57,6 +57,14 @@ const Box = styled.div`
     border-radius: 10000px;
     background-color: #6F92BB;
   }
+  .row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .resetForm{
+    opacity: .5;
+    margin-left: 5px;
+  }
 `; 
 
 export default Box

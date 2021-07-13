@@ -11,15 +11,17 @@ const LightTheme = {
   textColor: "#000",
   boxBorder: "none",
   boxBg: "#fff",
+  secundaryColor: "#fff"
 }
 const DarkTheme = {
   pageBackground: "#000000",
   navBg: "#000000",
   titleColor: "lightpink",
   tagLineColor: "lavender",
-  boxBorder: "1px solid #fff",
-  textColor: "#fff",
+  boxBorder: "1px solid #D81D99",
+  textColor: "#D81D99",
   boxBg: "#15181D",
+  secundaryColor: "#D81D99"
 }
 const themes = {
   light: LightTheme,

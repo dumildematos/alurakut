@@ -127,6 +127,7 @@ AlurakutMenu.Wrapper = styled.header`
         padding: 10px 16px;
         position: relative;
         text-decoration: none;
+        color: ${props => props.theme.secundaryColor}; 
         &:after {
           content: " ";
           background-color: #5292C1;

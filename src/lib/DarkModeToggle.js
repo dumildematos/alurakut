@@ -8,6 +8,9 @@ const InnerDarkModeToggle = styled.div`
     right: 3%;
     top: 1%;
     z-index: 1000;
+    @media(max-width: 860px) {
+        right: 10%;
+    }
 `;
 
 const Toggle = styled.button`
